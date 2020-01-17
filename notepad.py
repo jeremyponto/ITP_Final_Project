@@ -157,7 +157,7 @@ class NotepadFrame(Frame):
     def fileNewWindow(self):
         # make new Notepad frame
         self.notepadwindow = Toplevel(self.notepadframe)
-        self.notepadframe = NotepadFrame(self.notepadwindow)
+        self.newnotepadframe = NotepadFrame(self.notepadwindow)
         
     def fileOpen(self):
         # file types
